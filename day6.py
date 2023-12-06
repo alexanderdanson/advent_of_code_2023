@@ -1,6 +1,6 @@
 import math
 
-data = open("carro_input.txt", "r").read().splitlines()
+data = open("input.txt", "r").read().splitlines()
 max_times = [int(t) for t in data[0].split(":")[1].split(" ") if t]
 record_distances = [int(d) for d in data[1].split(":")[1].split(" ") if d]
 
